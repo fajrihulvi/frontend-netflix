@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Netflix</title>
+</head>
+
+<body class="bg-dark">
+    <div style="background-image: url('images/bg.jpg'); background-size: cover;">
+        <!-- Navbar -->
+        <nav class="navbar navbar-light" style=" background-color: transparent;">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img src="images/logo.png" alt="" width="130" height="40">
+                </a>
+                <form class="form-group">
+                    <div class="row g-4">
+                        <div class="col">
+                            <select class="form-select form-select-sm me-5" aria-label=".form-select-sm example">
+                                <option selected>English</option>
+                                <option>Bahasa Indonesia</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-danger btn-sm" type="submit">Sign In</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <!-- section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="d-flex flex-column align-items-center text-white">
+                    <h1 class="text-center" style="font-size: 4em;"><b>Unlimited movies, TV <br />shows, and more.</b>
+                    </h1>
+                    <h4>Watch anywhere. Cancel anytime.</h4>
+                    <h4 class="py-4">Ready to watch? Enter your email to create or restart your membership.</h4>
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <input type="email" style="width: 10em;" class="form-control form-control-lg" id="email"
+                                name="email" placeholder="Email Address">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-danger btn-lg">Get Started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="mb-2" style="background-color : #000;">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center text-white py-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="justify-content-end py-5">
+                            <h1 style="font-size: 3em;"><b>Enjoy on your TV.</b></h1>
+                            <h4>Watch on Smart TVs, Playstation, Xbox,<br /> Chromecast, Apple TV, Blu-ray players, and
+                                <br />more.
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/tv.png" class="align-items-center" width="90%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-2" style="background-color : #000;">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center text-white py-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="images/mobile.jpeg" class="align-items-center" width="90%">
+                    </div>
+                    <div class="col-6">
+                        <div class="justify-content-end py-5">
+                            <h1 style="font-size: 3em;"><b>Download your shows to watch offline.</b></h1>
+                            <h4>Save your favorites easily and always have <br /> something to watch.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-2" style="background-color : #000;">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center text-white py-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="justify-content-end py-5">
+                            <h1 style="font-size: 3em;"><b>Watch everywhere.</b></h1>
+                            <h4>Stream unlimited movies and TV shows on <br /> your phone, tablet, laptop, and TV.</h4>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/komputer.png" class="align-items-center" width="90%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-2" style="background-color : #000;">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center text-white py-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="images/kids.png" class="align-items-center" width="90%">
+                    </div>
+                    <div class="col-6">
+                        <div class="justify-content-end py-5">
+                            <h1 style="font-size: 3em;"><b>Create profiles for kids.</b></h1>
+                            <h4>Send kids on adventures with their favorite <br /> characters in a space made just for
+                                them—free <br /> with your membership.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-2" style="background-color : #000;">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center text-white py-5">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <h1 style="font-size: 3em;" class="text-center"><b>Frequently Asked Questions</b></h1>
+                        <div class="accordion py-5 " id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        What is Netflix?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-dark">
+                                        <p>
+                                            Netflix is a streaming service that offers a wide variety of award-winning
+                                            TV shows, movies, anime, documentaries, and more on thousands of
+                                            internet-connected devices.
+                                        </p>
+                                        <p>
+                                            You can watch as much as you want, whenever you want without a single
+                                            commercial – all for one low monthly price. There's always something new to
+                                            discover and new TV shows and movies are added every week!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Where can i watch?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-dark">
+                                        <p>
+                                            Watch anywhere, anytime. Sign in with your Netflix account to watch
+                                            instantly on the web at netflix.com from your personal computer or on any
+                                            internet-connected device that offers the Netflix app, including smart TVs,
+                                            smartphones, tablets, streaming media players and game consoles.
+                                        </p>
+                                        <p>
+                                            You can also download your favorite shows with the iOS, Android, or Windows
+                                            10
+                                            app. Use downloads to watch while you're on the go and without an internet
+                                            connection. Take Netflix with you anywhere.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        How do i cancel?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-dark">
+                                        <p>
+                                            Netflix is flexible. There are no pesky contracts and no commitments. You
+                                            can easily cancel your account online in two clicks. There are no
+                                            cancellation fees – start or stop your account anytime.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="text-center">
+                            Ready to watch? Enter your email to create or restart your membership.
+                        </h4>
+                        <div class="d-flex flex-column align-items-center">
+                            <form class="row g-3">
+                                <div class="col-auto">
+                                    <input type="email" style="width: 10em;" class="form-control form-control-lg"
+                                        id="email" name="email" placeholder="Email Address">
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-danger btn-lg">Get Started</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
